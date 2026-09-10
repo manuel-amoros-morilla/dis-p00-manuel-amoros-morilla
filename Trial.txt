@@ -1,2 +1,10 @@
 Prueba Portatil 001
 Prueba Torre 001
+
+
+GUARDAR Y RECOGER CAMBIOS EN GITHUB
+1- Guardar cambios local
+2- git add <file>  (stages the file for commit)
+3- git commit -m "mensaje de commit"
+4- git push origin <branch>  (pushes the changes to the remote repository)
+5- git pull origin <branch>  (pulls the latest changes from the remote repository)
