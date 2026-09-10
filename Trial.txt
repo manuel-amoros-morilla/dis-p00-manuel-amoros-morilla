@@ -8,3 +8,45 @@ GUARDAR Y RECOGER CAMBIOS EN GITHUB
 3- git commit -m "mensaje de commit"
 4- git push origin <branch>  (pushes the changes to the remote repository)
 5- git pull origin <branch>  (pulls the latest changes from the remote repository)
+
+CLASS 1
+
+Version Control Systems (VCS)
+ Tool to record changes you make to your files over time
+  - Access to previous versions 
+  - know who when and what changed 
+  - work in parallel w/o overriting other peoples work 
+  - distributed backup copy of a project 
+
+
+- The problem it solves:
+
+Differences Git and GitHub 
+ - Git : 
+    program that runs on computer
+    To record versions of code locally 
+    no internet needed 
+
+ - GitHub:
+    Web service
+    Hosting Git repositories in Cloud and collabs
+    Internet needed 
+    Alternatives: GitLab, BitBucket, Gitea...
+
+Git's 3 Areas:
+
+    1. Working Directory
+        git add
+    2. Staging Area
+        git commit
+    3. Repository
+
+Basic Workflow : 
+ a) git clone 
+ b) git status (check current state)
+ c) git add (prepare changes)
+ d) git commit -m "descriptive message of changes" (commit changes)
+ e) git log or git log --oneline  (view history)
+ f) git push origin main (Push into GitHub)
+
+Life Cycle:
